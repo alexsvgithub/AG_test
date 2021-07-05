@@ -1,0 +1,69 @@
+h1,h2,h3,h4{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    margin: 0px;
+}
+
+.ChatBox{
+    border-radius: 35px;
+    /* background-color: #ff6000; */
+    /* background-image: linear-gradient(to right,#f5812f,#fb6307); */
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.Header{
+    height: 50%;
+   background-image: linear-gradient(to right,#f5812f,#fb6307);
+    color: white;
+    text-align: left;
+    padding: 0 0 0 10% ;
+    height: 300px;
+    position: relative;
+}
+
+.content{
+
+}
+
+
+.btn{
+    display:inline-block;
+    border:1px solid grey;
+    background:#ffffff;
+    color:#000;
+    
+    width: 75%;
+    text-align: left;
+    padding: 10px 20px ; 
+    border-radius:5px;
+    margin: 5px;
+}
+
+.hover:hover{
+    cursor:pointer;
+    box-shadow: 2px 3px 3px #c2c1c1;
+}
+
+.start{
+    display:inline-block;
+    border:1px solid grey;
+    background:#ffffff;
+    color:#000;
+    width: 300;
+    text-align: center;
+    padding: 10px 20px ; 
+    border-radius:35px;
+    margin: 20px;
+}
